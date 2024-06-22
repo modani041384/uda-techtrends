@@ -12,15 +12,15 @@ COPY . /app
 COPY ./techtrends/schema.sql /app
 ## Step 3:
 #RUN pip install -i https://pypi.org/simple flask
-RUN pip install -r requirements.txt
+RUN pip install -r techtrends/requirements.txt
 
 ## Step 4:
 # Ensure that the database is initialized with the pre-defined posts in the init_db.py file
-RUN python init_db.py
+RUN python techtrends/init_db.py
 
 # Expose port 80
 EXPOSE 3111
 
 ## Step 5:
 # Run app.py at container launch
-CMD ["python", "app.py"]
+CMD ["python", "techtrends/app.py"]
