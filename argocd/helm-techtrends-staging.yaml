@@ -13,5 +13,5 @@ spec:
       valueFiles:
       - values-staging.yaml
     path: helm
-    repoURL: https://github.com/nghia-hoang/P1DevelopAction
+    repoURL: https://github.com/modani041384/uda-techtrends
     targetRevision: HEAD

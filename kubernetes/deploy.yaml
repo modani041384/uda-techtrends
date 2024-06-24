@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: techtrends
-        image: nimd1/techtrends:latest
+        image: modani130484/techtrends:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3111

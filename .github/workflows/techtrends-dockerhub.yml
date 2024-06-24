@@ -30,4 +30,4 @@ jobs:
           context: .
           file: ./techtrends/Dockerfile
           push: true
-          tags: nimd1/techtrends:latest
+          tags: modani130484/techtrends:latest

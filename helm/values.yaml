@@ -5,7 +5,7 @@ service:
   protocol: TCP
   type: LoadBalancer
 image:
-  repository: nimd1/techtrends
+  repository: modani130484/techtrends
   tag: latest
   pullPolicy: IfNotPresent
 replicaCount: 1
